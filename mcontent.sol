@@ -786,7 +786,6 @@ contract MContent is Context, IERC20, Ownable {
     mapping (address => mapping (address => uint256)) private _allowances;
 
     mapping (address => bool) private _isExcludedFromFee;
-    mapping (address => bool) public _isBlacklisted;
 
     mapping (address => bool) private _isExcluded;
     address[] private _excluded;
